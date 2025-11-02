@@ -1141,7 +1141,7 @@ Este projeto foi desenvolvido para fins educacionais e acadêmicos.
 
 ---
 
-**Desenvolvido para:** Processamento de Imagens - M2_PYTHON  
-**Data:** 2024  
+**Desenvolvido para:** Processamento de Imagens - Felipe Viel Univali
+**Data:** 2025 
 **Autor:** Lucas Vieira e Rodrigo Spicker
 
