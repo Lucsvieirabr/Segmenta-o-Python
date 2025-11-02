@@ -1,0 +1,49 @@
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+.venv
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de resultados gerados
+# Ignora todo o conteúdo de results/, mas mantém o diretório
+results/*
+!results/.gitkeep
+
+# Arquivos de discussão gerados
+DISCUSSAO.txt
+
+# Mantém imagens de entrada na pasta images/ (não ignora)
+# As imagens em images/ serão commitadas normalmente
+
+# Arquivos temporários
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos do IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos específicos de discussão gerados
+DISCUSSAO.txt
+COMO_RODAR.md
+
