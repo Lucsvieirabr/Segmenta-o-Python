@@ -1143,5 +1143,5 @@ Este projeto foi desenvolvido para fins educacionais e acadêmicos.
 
 **Desenvolvido para:** Processamento de Imagens - M2_PYTHON  
 **Data:** 2024  
-**Autor:** [Seu Nome]
+**Autor:** Lucas Vieira e Rodrigo Spicker
 
