@@ -5,6 +5,12 @@ from collections import deque
 
 
 def skin_color_thresholding(image_path):
+
+    # Define os intervalos de cor de pele em HSV
+    # Hue (Matiz): 0-50 (cores que vão de vermelho a amarelo)
+    # Saturation (Saturação): 50-255 (evita cores muito esbranquiçadas)
+    # Value (Brilho): 80-255 (evita sombras muito escuras)
+    
     image = cv2.imread(image_path)
     if image is None:
         raise ValueError(f"Erro ao carregar imagem: {image_path}")
@@ -12,7 +18,7 @@ def skin_color_thresholding(image_path):
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     image_hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     
-    lower_skin = np.array([0, 48, 89], dtype=np.uint8)
+    lower_skin = np.array([0, 50, 80], dtype=np.uint8)
     upper_skin = np.array([50, 255, 255], dtype=np.uint8)
     
     mask = cv2.inRange(image_hsv, lower_skin, upper_skin)
